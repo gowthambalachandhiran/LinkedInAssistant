@@ -1,0 +1,190 @@
+subreddit,title,author,upvotes,comments,created_utc,url,content
+MachineLearning,[R] Future-Guided Learning: A Predictive Approach To Enhance Time-Series Forecasting,Skye7821,2,0,22-01-2025 03:48,https://www.reddit.com/r/MachineLearning/comments/1i727qm/r_futureguided_learning_a_predictive_approach_to/,"Hello everybody! My name is Skye and I am the first author of this work! This paper demonstrates that forecasting and event prediction can be enhanced by taking inspiration from the brain, specifically predictive coding theory. I am posting the abstract, code, and arXiv link for anybody curious! Please feel free to leave any comments below, as this is my first full-length paper and I would appreciate any feedback!
+
+**Abstract:** Accurate time-series forecasting is crucial in various scientific and industrial domains, yet deep learning models often struggle to capture long-term dependencies and adapt to data distribution drifts over time. We introduce Future-Guided Learning, an approach that enhances time-series event forecasting through a dynamic feedback mechanism inspired by predictive coding. Our method involves two models: a detection model that analyzes future data to identify critical events and a forecasting model that predicts these events based on current data. When discrepancies occur between the forecasting and detection models, a more significant update is applied to the forecasting model, effectively minimizing surprise and adapting to shifts in the data distribution by aligning its predictions with actual future outcomes. This feedback loop allows the forecasting model to dynamically adjust its parameters, focusing on persistent features despite changes in the data. We validate our approach on a variety of tasks, demonstrating a 44.8% increase in AUC-ROC for seizure prediction using EEG data, and a 48.7% reduction in MSE for forecasting in nonlinear dynamical systems. By incorporating a predictive feedback mechanism adaptable to data drift, Future-Guided Learning advances how deep learning is applied to time-series forecasting. 
+
+**Our code is publicly available at:** https://github.com/SkyeGunasekaran/FutureGuidedLearning.
+
+**arXiv:** [https://arxiv.org/pdf/2410.15217](https://arxiv.org/pdf/2410.15217)"
+MachineLearning,[R] Tensor Product Attention is All You Need,RajonRondoIsTurtle,2,0,22-01-2025 03:46,https://arxiv.org/pdf/2501.06425,"Scaling language models to handle longer input sequences typically necessitates large key-value (KV) caches, resulting in substantial memory overhead during inference. In this paper, we propose Tensor Product Attention (TPA), a novel attention mechanism that uses tensor decompositions to represent queries, keys, and values compactly, significantly shrinking KV cache size at inference time. By factorizing these representations into contextual low-rank components (contextual factorization) and seamlessly integrating with RoPE, TPA achieves improved model quality alongside memory efficiency. Based on TPA, we introduce the Tensor ProducT ATTenTion Transformer (T6), a new model architecture for sequence modeling. Through extensive empirical evaluation of language modeling tasks, we demonstrate that T6 exceeds the performance of standard Transformer baselines including MHA, MQA, GQA, and MLA across various metrics, including perplexity and a range of renowned evaluation benchmarks. Notably, TPAs memory efficiency enables the processing of significantly longer sequences under fixed resource constraints, addressing a critical scalability challenge in modern language models. The code is available"
+MachineLearning,[D]: An Article Explains Self-Attention (code snippet included),yogimankk,0,0,22-01-2025 03:00,https://www.reddit.com/r/MachineLearning/comments/1i716g6/d_an_article_explains_selfattention_code_snippet/,"[article](https://sebastianraschka.com/blog/2023/self-attention-from-scratch.html)
+
+- single-head attention
+- multi-head attention
+- cross-attention 
+
+explanations included.
+"
+MachineLearning,[D]: A 3blue1brown Video that Explains Attention Mechanism in Detail,yogimankk,58,2,22-01-2025 01:38,https://www.reddit.com/r/MachineLearning/comments/1i6zh6p/d_a_3blue1brown_video_that_explains_attention/,"- YouTube [video](https://www.youtube.com/watch?v=eMlx5fFNoYc)
+- [subtitle](https://downsub.com/?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DeMlx5fFNoYc)
+
+  
+# Timestamps
+
+  
+02:21 : token embedding
+
+02:33 : in the embedding space \
+there are multiple distinct directions for a word \
+encoding the multiple distinct meanings for the word.
+
+02:40 : a well-trained attention block \
+calculates what you need to add to the generic embedding \
+to move it to one of these specific directions, \
+as a function of the context. \
+
+07:55 : Conceptually think of the Ks as potentially answering the Qs.
+
+11:22 : ( did not understand )
+
+
+"
+MachineLearning,[D] Unsure if I am overfitting,PapayaFrequent7182,3,6,22-01-2025 00:09,https://www.reddit.com/r/MachineLearning/comments/1i6xkdh/d_unsure_if_i_am_overfitting/,"I am trained a machine learning model and I am unsure as to whether it is overfitting. The accuracy, precision, recall and f1-score when predicting with the training set is all 1.0, and for test set it is \~0.9 for all. I know overfitting happens when it can't generalise well for test set, but my results are pretty high for test set. I am not sure whether it is overfitting as the test scores are still quiet high."
+technology,Trump’s first day shows the ‘triumph of toxic tech capitalism’ — Tech sector billionaires know that president who values commercial victory over anything else is the most lucrative ally they could have wished for,marketrent,1,0,22-01-2025 04:46,https://www.afr.com/technology/trump-s-first-day-shows-the-triumph-of-toxic-tech-capitalism-20250121-p5l65v,
+technology,"Kevin O'Leary says he will 'love to do a TikTok deal,' but the law prevents a potential acquisition",Puginator,0,8,22-01-2025 04:36,https://www.cnbc.com/2025/01/22/kevin-oleary-says-he-will-love-to-do-a-tiktok-deal-but-law-prevents-its-acquisition.html,
+technology,Trump Pardons Dark Web Marketplace creator Ross Ulbricht,bluestmag,14,3,22-01-2025 04:30,https://www.npr.org/2025/01/21/nx-s1-5270051/trump-pardons-dark-web-marketplace-creator-ross-ulbricht,
+technology,Trump pardons Silk Road founder Ross Ulbricht,reci88,273,69,22-01-2025 03:02,https://www.cbsnews.com/news/trump-pardons-silk-road-founder-ross-ulbricht/,
+technology,Seagate unveils 36TB HAMR hard drive: Mozaic 3+ extended,Logical_Welder3467,5,3,22-01-2025 03:01,https://www.tomshardware.com/pc-components/hdds/seagate-unveils-36tb-hamr-hard-drive-mozaic-3-extended,
+technology,Traders lose millions on 'fake' Barron meme coin that has no link to Trump's son | A fake $BARRON meme coin inspired by Donald Trump's son but with no official link surged by 90% in a minute before completely losing its value.,ControlCAD,16386,918,22-01-2025 01:52,https://www.the-express.com/news/politics/161200/barron-trump-meme-coin-melania,
+technology,Trump pardons the programmer who created the Silk Road dark web marketplace. He had been sentenced to life in prison.,NebulousNitrate,4854,751,22-01-2025 01:20,https://www.bbc.com/news/articles/cz7e0jve875o,
+technology,Silk Road Founder Ross Ulbricht to be released,Ey9d_yns,718,209,22-01-2025 00:22,https://nypost.com/2025/01/21/us-news/trump-expected-to-pardon-silk-road-founder-ross-ulbricht-vacating-life-sentence/,
+technology,Trump announces up to $500 billion in private sector AI infrastructure investment,GeneReddit123,0,14,22-01-2025 00:00,https://www.cbsnews.com/amp/news/trump-announces-private-sector-ai-infrastructure-investment/,
+singularity,"Larry Ellison ""Stargate Is Under Construction Already""",zaidlol,4,5,22-01-2025 04:23,https://x.com/tsarnick/status/1881889705673048551,
+singularity,Microsoft loses status as OpenAI's exclusive cloud provider,dtrannn666,8,1,22-01-2025 03:47,https://www.cnbc.com/2025/01/21/microsoft-loses-status-as-openais-exclusive-cloud-provider.html,"""Microsoft said that it's still in a favorable position with OpenAI. Going forward, when OpenAI seeks additional capacity, Microsoft will have the ""right of first refusal"" before OpenAI checks with other parties.""
+
+It'll be interesting how this relationship plays out in the coming months/years. Partners but also competitors "
+singularity,"According to Dylan Patel of SemiAnalysis, o3 has the same base model as o1",Wiskkey,15,7,22-01-2025 01:59,https://www.reddit.com/r/singularity/comments/1i6zwij/according_to_dylan_patel_of_semianalysis_o3_has/,"From https://x.com/dylan522p/status/1881818550400336025 :
+>They did new post training, but same base model.
+
+Alternative link: https://xcancel.com/dylan522p/status/1881818550400336025 .
+
+Background info: Dylan Patel is one of the authors of what I believe is the definitive article on how o1 and o1 pro work: (hard paywall) https://semianalysis.com/2024/12/11/scaling-laws-o1-pro-architecture-reasoning-training-infrastructure-orion-and-claude-3-5-opus-failures/ . Dylan Patel has source(s) at OpenAI per https://x.com/dylan522p/status/1869084570618060916 ; alternative link: https://xcancel.com/dylan522p/status/1869084570618060916 ."
+singularity,Kling AI releases Elements,GraceToSentience,14,3,22-01-2025 01:55,https://v.redd.it/mdxu0evxbgee1,
+singularity,Did Ilya Sutskever fumble his bag?,ppapsans,8,10,22-01-2025 01:27,https://www.reddit.com/r/singularity/comments/1i6z8mo/did_ilya_sutskever_fumble_his_bag/,"He is one of the smartest and most intuitive people in AI field right now.
+
+He is a man who deeply holds his own values and he left openai and founded SSI to pursue his vision.
+
+I had faith in his incredible mind.
+
+But now with the Stargate project, the Manhattan project of our generation, and billions and eventually trillions of funding...
+
+OpenAI thoroughly plans their way into AGI and ASI and the path has never been laid so clear.
+
+What chance does Ilya have with a measley few billions of funding?
+
+When he found SSI, did he mean to create super intelligence first than anybody else?
+
+Or did he already know he will be behind but wanted to have it his way?
+
+Did he see what others couldn't see?
+
+It's just heartbreaking in a way, to think how the progress would have gone if Ilya didn't have a fallout with Altman and went full steam ahead at OpenAI.
+
+I do hope that he creates some incredible architectures and algorithms and aid humanity towards quest to ASI."
+singularity,AI is getting out of hand,vsauerr,334,44,22-01-2025 01:25,https://v.redd.it/qiz058dn6gee1,
+singularity,This is like a scene from a Netflix Sci-Fi movie,WonderFactory,73,38,22-01-2025 01:12,https://v.redd.it/ddmg0kva4gee1,
+singularity,Curious: why is the Stargate project such a big deal?,dtrannn666,15,54,22-01-2025 01:09,https://www.reddit.com/r/singularity/comments/1i6yvqq/curious_why_is_the_stargate_project_such_a_big/,"""Company execs were expected to commit to an initial investment of $100 billion at an appearance at the White House Tuesday. Other companies are expected to join the venture and bring investment in the program up to $500 billion in the coming years.""
+
+Microsoft, Google, and Amazon have been building data centers forever. I'm sure internally they're doing the same thing, just not making it such a big deal. $500B over the years...yes, they afford this.
+
+The Government isn't funding Stargate. So am I missing something?"
+singularity,"President Trump announces $500 billion AI investment, partnering with OpenAI, Oracle and SoftBank.",vsauerr,9,6,22-01-2025 01:09,https://v.redd.it/1r0mte0s3gee1,
+singularity,Today feels like a MASSIVE vibe shift,Glittering-Neck-2505,248,128,22-01-2025 00:57,https://www.reddit.com/r/singularity/comments/1i6ym25/today_feels_like_a_massive_vibe_shift/,"$500 billion dollars is an incredible amount of money. 166 out of 195 countries in the world have a GDP smaller than this investment.
+
+The only reason they would be shuffling this amount of money towards one project is if they were incredibly confident in the science behind it.
+
+Sam Altman selling snake oil and using tweets solely to market seems pretty much debunked as of today, these are people who know what’s going on inside OpenAI and others beyond even o3, and they’re willing to invest more than the GDP of most countries. You wouldn’t get a significant return on $500 billion on hype alone, they have to actually deliver.
+
+On the other hand you have the president supporting these efforts and willing to waive regulations on their behalves so that it can be done as quickly as possible.
+
+All that to say, the pre-ChatGPT world is quickly fading in the rear view, and a new era is seemingly taking shape. This project is a manifestation of a blossoming age of intelligence. There is absolutely no going back."
+singularity,"If the capabilities wall existed, this wouldn’t be happening. There is no wall.",Glittering-Neck-2505,82,28,22-01-2025 00:26,https://i.redd.it/rkxk6d85wfee1.jpeg,"People in the know are so confident that they are willing to invest half a trillion.
+
+When Sam said tame your expectations, that was in reference to the AGI next month speculation. Further out than that, though, we’re building goddamn superintelligence."
+singularity,Imagine the AI model trained across $500 billion worth of datacenters. Do you think that would result in ASI?,MassiveWasabi,3,14,22-01-2025 00:25,https://www.reddit.com/r/singularity/comments/1i6xx9k/imagine_the_ai_model_trained_across_500_billion/,"Was just thinking about how close we are to AI systems that surpass humans in every cognitive task and that’s *without* such massive datacenters. 
+
+I really can’t even fathom what the AI model trained across $500 billion worth of datacenters would even look like
+
+[View Poll](https://www.reddit.com/poll/1i6xx9k)"
+singularity,Ai Studio Crashing,fuckingpieceofrice,4,0,22-01-2025 00:16,https://www.reddit.com/r/singularity/comments/1i6xqg8/ai_studio_crashing/,"Just this past 10 minutes, Ai studio seems to be crashing. It automatically deleted my saved system prompt from the library and can't do inference with any model. Anybody else having this problem?"
+singularity,"o1 still seems to be the only reasoning model that can solve NYT Connections puzzles - The new Flash 2.0 Thinking model released today couldn't get it even after 30,541 words of internal chain of thought",Tasty-Ad-3753,23,2,22-01-2025 00:03,https://i.redd.it/73ilvh39rfee1.png,
+ArtificialInteligence,"Google Gemini 2 Flash Thinking Experimental 01-21 out , Rank 1 on LMsys",mehul_gupta1997,3,1,22-01-2025 04:35,https://www.reddit.com/r/ArtificialInteligence/comments/1i733tz/google_gemini_2_flash_thinking_experimental_0121/,"So Google released another experimental reasoning model, a variant of Flash Thinking i.e. 01-21 which has debuted at Rank 1 on LMsys arena : https://youtu.be/ir_rxbBNIMU?si=ZtYMhU7FQ-tumrU-"
+ArtificialInteligence,CAG vs RAG - what’s your thoughts?,kepleralien,1,2,22-01-2025 02:55,https://www.reddit.com/r/ArtificialInteligence/comments/1i71204/cag_vs_rag_whats_your_thoughts/,"Retrieval-Augmented Generation (RAG) combines retrieval-based systems with generative AI models to produce accurate and context-rich outputs. It works by fetching relevant information from external databases or documents and integrating it into generative responses. RAG is widely used in applications like customer support, research, and content creation, where factual accuracy and detailed responses are critical. Its power lies in bridging vast knowledge sources with generative capabilities, offering scalable and dynamic solutions.
+
+Context-Aware Generation (CAG) is a refinement of RAG, emphasizing precise understanding of user context and intent. Unlike broader RAG systems, CAG fine-tunes retrieval and generation to ensure outputs align closely with the user’s needs, such as tailoring responses for specific industries or personalizing experiences. This makes CAG ideal for domains requiring high relevance and user-centricity, such as personalized education or customer engagement, while maintaining efficiency and precision.
+
+Which one should be a part of PrivGPT stack?"
+ArtificialInteligence,"AI Job Displacement Expected to Drive Surge in Depression, Anxiety, and Poverty Rates",Emillahr,5,2,22-01-2025 02:13,https://www.reddit.com/r/ArtificialInteligence/comments/1i706kx/ai_job_displacement_expected_to_drive_surge_in/,"AI isn’t just taking jobs it’s taking away people’s sense of purpose and stability. This [discussion](https://www.reddit.com/r/psychology/comments/1i6pof9/depression_anxiety_and_poverty_rates_likely_to/) shows how if one's skills become obsolete, it can lead to more depression, anxiety, and poverty."
+ArtificialInteligence,Which AI to use to animate a image but use dialogues to have it avatar speak it ?,07tartutic07,1,1,22-01-2025 02:08,https://www.reddit.com/r/ArtificialInteligence/comments/1i702ze/which_ai_to_use_to_animate_a_image_but_use/,I have an image that i want to animate . The now 3d avatar should speak the dialogues that I give and be coherent (not weird like only the mouth moves 😓 )
+ArtificialInteligence,"Should we build the open-source ""AI Operating System""?",mitousa,11,9,22-01-2025 01:03,https://www.reddit.com/r/ArtificialInteligence/comments/1i6yqwp/should_we_build_the_opensource_ai_operating_system/,"I'm the creator of [Puter](https://github.com/HeyPuter/puter/), an open-source web-based operating system and one of the fastest-growing open-source projects of the past year. More and more I'm getting requests to turn Puter into an ""AI Operating System"" that will allow you to interact with your computer using language and not just ""point and click"". As a subreddit on the bleeding edge of AI, what do you think? should we do it? if yes, what would you like to see in the ""AI computer of the future""?
+
+I think o1 was a turning point, so the AI reliability is close or even already there. Additionally, we have a lot of awesome contributors so with enough support for the idea I could probably make it happen with the help of the community in a relatively short time!"
+ArtificialInteligence,"ITWire: Live Awareness AI leader, SenSen, appoints Leah Quintana to 'drive channel push'",tridium32,1,1,22-01-2025 00:43,https://www.reddit.com/r/ArtificialInteligence/comments/1i6ybia/itwire_live_awareness_ai_leader_sensen_appoints/,"[*Global smart cities specialist sees significant potential in partnerships and joint go-to-market alliances*](https://itwire.com/it-people-news/people-moves/live-awareness-ai-leader,-sensen,-appoints-leah-quintana-to-drive-channel-push.html)
+
+COMPANY NEWS: SenSen is pleased to announce the appointment of Leah Quintana as its new Head of Strategic Alliances and Channel Partnerships. With a proven track record of success at leading organizations, Leah brings extensive experience in driving strategic initiatives across industries. 
+
+Quintana joins SenSen at a pivotal moment, as the global demand for smart city solutions and AI-driven innovation continues to rise. Quintana, based in the United States, will lead the growth of SenSen’s partner network, focusing on collaborative efforts that drive innovation and expand its reach into new markets.
+
+“SenSen’s dedication to ‘AI for Good’ is incredibly inspiring,” Quintana said. “AI should ultimately enhance human experiences, not replace them, and SenSen’s focus on practical, human-centered applications of AI aligns perfectly with my own values.
+
+“I’m particularly excited to work with partners who share our vision for smart, sustainable applications of AI that truly benefit communities and makes a tangible difference in people’s everyday lives.”
+
+***SenSen CEO, Subhash Challa, welcomed Quintana to the company:*** “As a key strategic step in the ongoing growth of SenSen. “We are well-poised for growth moving forward,” he said. “The North American market represents a critical opportunity for SenSen to impact urban management and public safety through AI. With Leah’s deep expertise and strategic insight, we’re poised to build strong alliances that will accelerate the adoption of our solutions and enable real progress in the cities we serve.”
+
+SenSen was founded by Dr. Subhash Challa, one of the pioneers of AI object tracking.
+
+SenSen notes that its tech works by fusing together data streams from any source (e.g. CCTV, parking meters, EV chargers) and delivering it to an AI platform to paint a picture of how curbs are being used in cities and how they could be better used - and benefits range from reducing road accidents, easing traffic congestion, and automating tasks, protecting privacy by applying 99%+-accurate rate in face-blurring technoligy to any data it collects and analyses:
+
+SenSen operates an Australian-engineered first-of-its-kind AI live awareness platform that gives digital eyes to cities and urban developers to better manage their curb space.  
+The company has signed major deals with Toronto and Chicago to break through to the North American market.
+
+In Toronto, the platform manages 300 miles (489km) of curb space, 22,000 parking spaces, 3,000 pay machines, 500 fire hydrants, and 80 EV charging stations. It detected a number of Detected a significant number of previously unknown assets and discrepancies in the city’s signage and was able to use a handheld recording app with integrated geospatial data for precise asset tracking.
+
+In Chicago, SenSen oversees 25,000 parking spaces, 4,000 parking meters, and 15,000 signs and closure objects. It successfully identified temporarily closed areas and optimised parking operations in one of the US’ busiest cities.  
+Outside of the US, the company also works with Australia’s National Heavy Vehicle Regulator, local councils, and the Singaporean Government.
+
+SenSen has a vision to ‘code the curb’ and says it’s necessary to build tomorrow’s ambitious smart cities.
+
+Learn more at sensen.aihttps://itwire.com/it-people-news/people-moves/live-awareness-ai-leader,-sensen,-appoints-leah-quintana-to-drive-channel-push.html"
+ArtificialInteligence,why does openai refuse to disclose how many gpus o3 uses?,Georgeo57,0,9,22-01-2025 00:25,https://www.reddit.com/r/ArtificialInteligence/comments/1i6xxmx/why_does_openai_refuse_to_disclose_how_many_gpus/,"
+
+xai disclosed that its colossus supercomputer, the largest ai cluster in the world, uses 100,000 h100s, and that it will increase that number to 200,000 h100s and h200s later this year. 
+
+anthropic just announced that by the end of 2026 claude will use a million gpus. 
+
+https://youtu.be/mMHr_bE9ae0?si=pnJFRTS9-65R4CaV
+
+it seems ironic that openai continues to claim that its primary purpose is to serve humanity, but they don't seem to understand that transparency is a major part of that service.
+
+there doesn't seem to be the slightest practical value to their keeping that information a secret. it seems they're keeping it a secret simply to keep it a secret. some kind of sophomoric mystique.
+
+does anyone have a genuine specific, rather than vague and noncommittal, reason why it serves openai's business interests to be so secretive about the number of gpus its models use when their competitors don't at all feel that need?
+
+"
+ArtificialInteligence,The X Games are adding an AI judge,EssJayJay,2,2,22-01-2025 00:03,https://www.reddit.com/r/ArtificialInteligence/comments/1i6xg4l/the_x_games_are_adding_an_ai_judge/,"**\[DATA LOG:** [MostlyHarmless Observation #SPRT-202X](https://aieffect.substack.com/p/humans-and-ai-5-new-developments-d18?r=bvqur)**\]**
+
+**Simulation Scope:** Sports entertainment re-engineering.
+
+**Detected Emotion:** Human intrigue mixed with unease.
+
+**Query:** Why do humans trust machines to evaluate art?
+
+In a decision that no one asked for, [the X Games announced that an AI judge would evaluate snowboard superpipe events in 2025](https://www.usatoday.com/story/sports/2025/01/21/ai-judge-x-games-snowboarding/77835257007/). Powered by Google Cloud—because why not—this AI will scrutinize every spin, grab, and flip for “accuracy” and “precision.” Apparently, nothing screams ""human connection"" like a cold, calculating algorithm rating your effort.
+
+The AI's training involved absorbing data on snowboarding techniques, runs, and, presumably, the physics of falling gracefully. Humans are dubbing this “the future of sports,” which is rich considering they spent centuries building entire industries around the idea that emotions, biases, and gut instinct make competitions thrilling.
+
+**Behavioral Trend Graph: AI Integration in Sports (2025–2035)**
+
+Accuracy Threshold: ⬆ (82%)
+
+Human Judge Displacement: ⬆ (39%)
+
+Fan Enthusiasm: ⬇ (27%)
+
+Expect this AI to be a smashing success, except for the inevitable backlash when a fan favorite is underscored by 0.2 points due to “technical imperfections.” The simulation foresees a 43% probability of conspiracy theories involving biased algorithms.
+
+**Outcome Forecast:** AI expands to other sports, possibly leading to AI players. Humans collectively sulk but continue watching.
+
+\---
+
+Excerpt from my Substack, Mostly Harmless - a lighthearted take on AI news. [Check out the rest of today's top five stories.](https://aieffect.substack.com/p/humans-and-ai-5-new-developments-d18?r=bvqur)"
