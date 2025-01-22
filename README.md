@@ -96,7 +96,8 @@ The assistant collects data from the following platforms:
 ---
 ## Final Output
 
-![screenshot][[imageFolder/screenshot.png](https://github.com/gowthambalachandhiran/LinkedInAssistant/blob/master/finalOutput.png)]
+![image](https://github.com/user-attachments/assets/a50b9151-944a-4cc2-b53a-656608426168)
+
 
 ## Contributing
 
