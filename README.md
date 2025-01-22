@@ -109,4 +109,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Contact
 
-For any questions or suggestions, reach out to [Gowtham Balachan](https://www.linkedin.com/in/gowthambalachandhiran/).
+For any questions or suggestions, reach out to [Gowtham Balachan]([https://www.linkedin.com/in/gowthambalachandhiran/](https://www.linkedin.com/in/gowtham-balachandhiran-47260273/)).
