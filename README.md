@@ -94,6 +94,9 @@ The assistant collects data from the following platforms:
 - **Twitter API**: For fetching tweets.
 
 ---
+## Final Output
+
+![screenshot][[imageFolder/screenshot.png](https://github.com/gowthambalachandhiran/LinkedInAssistant/blob/master/finalOutput.png)]
 
 ## Contributing
 
